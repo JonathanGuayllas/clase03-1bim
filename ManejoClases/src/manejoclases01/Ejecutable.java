@@ -12,9 +12,9 @@ public class Ejecutable {
         Hospital hospital = new Hospital();
         
         // Se asigna valores particulares al objeto
-        hospital.nombre = "Isidro Ayora";
-        hospital.numeroCamas = 100;
-        hospital.presupuesto = 560340.43;
+        hospital.nombre = "Municipal";
+        hospital.numeroCamas = 10000;
+        hospital.presupuesto = 680340.43;
         
         // Se presenta valores en pantalla
         System.out.printf("%s - %d - %.1f\n", hospital.nombre,
